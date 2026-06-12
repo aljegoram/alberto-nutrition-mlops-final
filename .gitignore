@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+*.env
+
+# Generated model and data artifacts
+models/
+data/
+artifacts/
+tmp/
+logs/
+mlruns/
+
+# Large or sensitive files
+*.onnx
+*.parquet
+*.csv
+*.pkl
+*.joblib
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
