@@ -51,6 +51,7 @@ def predict(input_data: NutritionInput):
         "probabilidad_recomendable": prediction["probabilidad_recomendable"],
         "interpretacion": interpretation,
         "modelo": model_path,
+        "demo_message": "Cambio visible en predict desplegado desde GitHub Actions",
     }
 
     append_prediction_log({

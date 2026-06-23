@@ -18,3 +18,4 @@ class PredictionResponse(BaseModel):
     probabilidad_recomendable: float
     interpretacion: str
     modelo: str
+    demo_message: str | None = None
